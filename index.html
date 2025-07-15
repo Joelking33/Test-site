@@ -63,19 +63,17 @@
   <script>
     // Animation Netflix-like intro
     window.addEventListener("load", () => {
-      setTimeout(() => {
+      
         document.getElementById("intro").classList.add("fade-out");
+        document.getElementById("formSection").style.display = "none";
+       
         setTimeout(() => {
+          document.getElementById("formSection").style.display = "block";
+       
           document.getElementById("intro").style.display = "none";
-          document.getElementById("formSection").classList.remove("hidden");
-        }, 1000);
-      }, 2000); // Durée intro
-    });
-
-    // Simulation de connexion
-    document.getElementById("loginForm").addEventListener("submit", function(e) {
-      e.preventDefault();
-      alert("Connexion réussie (simulation)");
+          document.getElementById("formSection").classList.add("hidden");
+        
+      }, 2000); 
     });
   </script>
 </body>
