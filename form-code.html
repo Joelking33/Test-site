@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset=UTF-8">
+  <title>page de connexion</title>
+  <link rel="stylesheet" href="style-insc.css">
+</head>
+<body>
+  <h1>PHARMALOCAST</h1>
+  <form action="#" class="sign-up">
+    <div class="case">
+      <input type="name" placeholder="insérez votre nom ici" required>
+    </div>
+    <div class="case">
+      <input type="email" placeholder="Inserez votez email" required>
+    </div>
+    <div class="case">
+      <input type="texte" placeholder="Date de naissance" onfocus="(this.type='date')" onblur="if(this.value==='') {this.type='date'}">
+    </div>
+    <div class="case">
+      <input type="password" placeholder="Inserez votre mot de passe" requiered>
+    </div>
+    <div class="case">
+      <input type="password" placeholder="Confirmez votre mot de passe" required>
+    </div>
+    <div class="checkit">
+    <input type="radio" requiered>
+      <label>J'accepte les conditions</label><br>
+      <input type="checkbox">
+      <label>Se souvenir de moi</label>
+    </div>
+    <div class="btn">
+      <input type="submit" value="Prêt à demarrer">
+    </div>
+  </form>
+</body>
+</html>

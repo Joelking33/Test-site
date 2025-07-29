@@ -1,0 +1,44 @@
+body{
+  background-image: url(carte.jpeg);
+  background-attachment: fixed;
+  border-radius: 30px;
+  background-position: center;
+}
+h1{
+  color: green;
+  text-align: center;
+}
+form .checkit input[type="checkbox"]{
+  
+}
+form .btn input[type="submit"]{
+  height: 46px;
+  width: 300px;
+  z-index: 1;
+  position: absolute;
+  background: green;
+  border: 10px solid green;
+  color: white;
+  padding-left: 0;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+form .case input{
+  height: 46px;
+  width: 300px;
+  outline: none;
+  padding-left: 12px;
+  border-radius: 15px;
+  border: 3px solid grey;
+  border-bottom-width: 2px;
+  font-size: 15px;
+  background: transparent;
+  font-style: italic;
+}
+.sign-up,body{
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+}
